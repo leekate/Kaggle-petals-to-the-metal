@@ -46,10 +46,12 @@ historical = model.fit(training_dataset,
 ```
 
 ![error](https://user-images.githubusercontent.com/46522501/106558833-c7059200-6567-11eb-8d1b-0e0e2f2f7800.PNG)
+
 위와 같은 오류 발생
 
 
 ![dataset](https://user-images.githubusercontent.com/46522501/106558897-ea304180-6567-11eb-9c06-21d43f96409e.PNG)
+
 해결 실패
 
 
