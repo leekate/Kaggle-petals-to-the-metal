@@ -11,20 +11,13 @@ print(GCS_DS_PATH)
 ```
 KaggleDatasets 모듈 문제가 생겼다. 
 
-데이터 불러오기를 다른 방법으로 해보자. **케글 API**를 사용해 데이터를 다운받았다.
+데이터 불러오기를 다른 방법으로 해보자. **케글 API**를 사용해 데이터를 다운받았다. +unzip
 ```
 !kaggle competitions download -c tpu-getting-started
 ```
 
 ![dataload](https://user-images.githubusercontent.com/46522501/106558378-f8ca2900-6566-11eb-9206-1ad4cdba019a.PNG)
 
-
-
-
-
-
-
-zip되어있는 데이터를 풀어주었다. 
 ![unzip](https://user-images.githubusercontent.com/46522501/106558489-2dd67b80-6567-11eb-9d5b-47551df69474.PNG)
 
 
