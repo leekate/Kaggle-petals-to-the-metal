@@ -9,8 +9,9 @@ from kaggle_datasets import KaggleDatasets
 GCS_DS_PATH = KaggleDatasets().get_gcs_path('tpu-getting-started')
 print(GCS_DS_PATH)
 ```
-KaggleDatasets 모듈 문제가 생긴다. 데이터 불러오기를 다른 방법으로 해보자.
-케글 API로 데이터를 다운받았다.
+KaggleDatasets 모듈 문제가 생겼다. 
+
+데이터 불러오기를 다른 방법으로 해보자. **케글 API**를 사용해 데이터를 다운받았다.
 ```
 !kaggle competitions download -c tpu-getting-started
 ```
