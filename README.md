@@ -44,10 +44,11 @@ historical = model.fit(training_dataset,
 
 
 
-![summary](https://user-images.githubusercontent.com/46522501/106559898-71ca8000-6569-11eb-9b05-1f41c5329949.PNG)
+![summary](https://user-images.githubusercontent.com/46522501/106560488-6fb4f100-656a-11eb-8b1c-2a00b032bcb0.PNG)
 
 
-model를 확인해보니 형태가 다음과 같았다. 마지막 dense layer의 output shape을 4가 아니라 1로 바꿔주어야 하나?
+
+model를 확인해보니 형태가 다음과 같았다. 마지막 dense layer의 output shape을 104가 아니라 1로 바꿔주어야 하나?
 
 ![new_summary](https://user-images.githubusercontent.com/46522501/106560054-b7874880-6569-11eb-9a07-43194343d674.PNG)
 ![worse](https://user-images.githubusercontent.com/46522501/106560137-e0a7d900-6569-11eb-88df-04642b344ec4.PNG)
