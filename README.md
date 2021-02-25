@@ -38,26 +38,4 @@ historical = model.fit(training_dataset,
           validation_data=validation_dataset)
 ```
 
-![error](https://user-images.githubusercontent.com/46522501/106558833-c7059200-6567-11eb-8d1b-0e0e2f2f7800.PNG)
-
-위와 같은 오류 발생
-
-
-
-![summary](https://user-images.githubusercontent.com/46522501/106560488-6fb4f100-656a-11eb-8b1c-2a00b032bcb0.PNG)
-
-
-
-model를 확인해보니 형태가 다음과 같았다. 마지막 dense layer의 output shape을 104가 아니라 1로 바꿔주어야 하나?
-
-![new_summary](https://user-images.githubusercontent.com/46522501/106560054-b7874880-6569-11eb-9a07-43194343d674.PNG)
-![worse](https://user-images.githubusercontent.com/46522501/106560137-e0a7d900-6569-11eb-88df-04642b344ec4.PNG)
-
-
-getting worse다
-
-
-
-
-
-## 남은 코드 = Test 적용
+...작성중
